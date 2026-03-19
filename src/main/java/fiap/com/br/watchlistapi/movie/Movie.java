@@ -1,4 +1,4 @@
-package fiap.com.br.watchlistapi;
+package fiap.com.br.watchlistapi.movie;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,5 +14,5 @@ public class Movie {
     private Long id;
     private String title;
     private String whereToWatch;
-    private Boolean watched;
+    private Boolean watched = false;
 }

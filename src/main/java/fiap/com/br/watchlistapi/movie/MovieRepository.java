@@ -1,4 +1,6 @@
 package fiap.com.br.watchlistapi.movie;
 
-public interface MovieRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MovieRepository extends JpaRepository<Movie, Long> {
 }
